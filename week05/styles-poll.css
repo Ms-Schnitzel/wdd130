@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Praise", cursive;
+  font-size: 1.5em;
+  color: #333;
+  background: #fff;
+  max-width: 840px;
+  margin: 30px auto;
+}
+
+header {
+
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* width: 600px; */
+}
+
+h1 {
+  background: gray;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+form {
+  /* width: 100%; */
+  margin: 0 auto;
+  padding: 5px;
+  border: black 2px solid;
+  border-radius: 15px;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 5px;
+  margin: 2px;
+  border: 1px solid black;
+  padding: 5px;
+  /* grid-template-columns: 100%; */
+  /* grid-template-rows: 20% 20% 20% 20% 20%; */
+}
+
+legend {
+  padding: 1px;
+  font-size: 0.7em;
+}
+
+label, input, button, select, textarea {
+  font-family: "Caramel", cursive;
+  /* font-size: 1em; */
+}
+
+label {
+  text-align: right;
+  padding-right: 20px;
+}
+
+input, select, textarea {
+  font-size: 1.2em;
+  padding: 0.5rem;
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  vertical-align: bottom;
+}
+
+button {
+  width: 200px;
+  margin: 0 auto;
+  background-color: red;
+  font-size: 1.2em;
+  border: 5px solid gray;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(226, 105, 125);
+}
+
+footer {
+  padding: 10px;
+  font-size: 0.8em;
+  margin-top: 20px;
+  border-top: 1px solid black;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.4rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+  margin: 0.4rem 0;
+}
