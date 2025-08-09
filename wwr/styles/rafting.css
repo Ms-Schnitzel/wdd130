@@ -159,7 +159,8 @@ p, nav, section, article {
 }
 
 .maps {
-  border: 3px solid var(--accent1-color);
+  border: 3px solid var(--secondary-color);
+  /* border-radius: 5%; */
   width: 80%;
   height: auto;
   margin: 30px;
@@ -185,11 +186,11 @@ p, nav, section, article {
 
 .workers {
   border-top: 5px solid gray;
-  padding-top: 40px;
+  padding-top: 70px;
   display: grid;
   align-items: center;
   grid-template-columns: 33% 34% 33%;
-  grid-template-rows: 33% 34% 33%;
+  grid-template-rows: 50% 10% 40%;
 }
 
 .workers img {
@@ -198,10 +199,12 @@ p, nav, section, article {
   margin: 15px auto;
   grid-column: span 1;
   grid-row: 1/2;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5%;
 }
 
 .workers h3 {
-  margin: 0 auto;
+  margin: 10px auto;
   grid-column: span 1;
   grid-row: 2/3;
 }
@@ -210,6 +213,11 @@ p, nav, section, article {
   margin: 0 auto;
   grid-column: span 1;
   grid-row: 3/4;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--accent2-color);
+  border-radius: 5%;
+  margin: 0 10px;
+  font-size: 20px;
 }
 
 form {
