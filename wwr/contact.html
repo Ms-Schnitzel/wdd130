@@ -62,12 +62,27 @@
           <fieldset>
             <legend>Tell Us!</legend>
             <div class="form-field2">
+              <div class="radio">
+                <div class="radio-select">
+                  <label for="inquiry">General Inquiry</label>
+                  <input type="radio" id="inquiry" name="reason" value="inquiry">
+                </div>
+                <div>
+                 <label for="question">Reservation Question</label>
+                  <input type="radio" id="question" name="reason" value="question">
+                </div>
+                <div>
+                  <label for="suggestion">Website Suggestion</label>
+                  <input type="radio" id="suggestion" name="reason" value="suggestion">
+                </div>
+              </div>
               <label for="subject">Message Subject</label>
               <textarea id="subject" name="subject" rows="5" placeholder="Enter your message here"></textarea>
               <label for="subscribe">Subscribe Today!</label>
               <input type="checkbox" id="subscribe" name="subscribe">
             </div>
-            <button type="submit">Submit Request</button>
+            <label for="submit">Reach out to us now!</label>
+            <button type="submit" id="submit">Submit Request</button>
           </fieldset>
           
         </form>
