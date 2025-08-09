@@ -325,7 +325,7 @@ article {
   border-radius: 3px;
 }
 
-.contact-us {
+.contacting {
   display: flex;
   flex-direction: column;
   grid-column: 1 / span 1;
@@ -337,7 +337,7 @@ article {
   padding: 10px;
 }
 
-.contact-us a {
+.contacting a {
   text-decoration: underline;
   color: var(--accent1-color);
 }
